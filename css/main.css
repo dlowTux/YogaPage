@@ -9,7 +9,7 @@
   width: 90%;
   margin: auto;
 }
-a {
+.navbar a {
   font-family: "Fredoka One", cursive;
   color: #077348;
   text-decoration: none;
@@ -128,13 +128,25 @@ ul {
   margin-right: auto;
   font-family: "Fira Sans", sans-serif;
   background: #28c19a;
-  color: #fff;
+  
   border-radius: 20px;
+}
+.boton a h3{
+  color: #fff;
 }
 .boton:hover {
   background: #fff;
+  
+}
+.boton a h3:hover{
+
   color: #28c19a;
 }
+.boton a{
+  text-decoration: none;
+  
+}
+
 .fondo-verde {
   height: auto;
   background: #28c19a;
@@ -267,4 +279,37 @@ color: #28c19a;
 margin-top: 100px;
 font-size: 4em;
   font-family: "Fira Sans", sans-serif;
+}
+.cuarto{
+ display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: -100px;
+  background: #28c19a;
+}
+.cverde{
+  grid-column: 1 ;
+  height: 900px;
+  background: #28c19a;
+ display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.cfoto{
+  grid-column: 2 ;
+  height: 900px;
+  background: url('../img/pexels-yan-krukov-4457993.jpg'); 
+}
+.botonblanco{
+  background: #fff;
+  width: 30%;
+  margin-left: 15%;
+  padding: 17px;
+  font-family: "Fira Sans", sans-serif;
+}
+.botonblanco a{
+  color: #28c19a;
+  text-decoration: none;
 }
