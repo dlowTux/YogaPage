@@ -57,7 +57,7 @@ ul {
 
 .background-green {
   width: 100%;
-  height: 500px;
+  height: 600px;
   background: #edeeee;
 }
 .wrapper {
@@ -87,7 +87,6 @@ ul {
 .columns1 {
   grid-column: 1;
   width: 80%;
-  
 }
 .columns2 {
   width: 80%;
@@ -98,8 +97,8 @@ ul {
 .column3 {
   width: 65%;
   grid-column: 3;
- align-items: center;
- margin-left: -150px; 
+  align-items: center;
+  margin-left: -150px;
 }
 .circulo {
   clip-path: circle(40% at center);
@@ -128,23 +127,20 @@ ul {
   margin-right: auto;
   font-family: "Fira Sans", sans-serif;
   background: #28c19a;
-  
+
   border-radius: 20px;
 }
-.boton a h3{
+.boton a h3 {
   color: #fff;
 }
 .boton:hover {
   background: #fff;
-  
 }
-.boton a h3:hover{
-
+.boton a h3:hover {
   color: #28c19a;
 }
-.boton a{
+.boton a {
   text-decoration: none;
-  
 }
 
 .fondo-verde {
@@ -152,14 +148,13 @@ ul {
   background: #28c19a;
 }
 
-.texto{
-
+.texto {
   color: #fff;
   font-size: 3em;
   text-align: center;
- font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", cursive;
 }
-.parrafo{
+.parrafo {
   color: #fff;
   width: 80%;
   margin-left: auto;
@@ -168,7 +163,7 @@ ul {
   text-align: center;
   font-family: "Fira Sans", sans-serif;
 }
-.fotos{
+.fotos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
@@ -176,11 +171,11 @@ ul {
   align-items: center;
 }
 .one {
-  grid-column: 1 ;
+  grid-column: 1;
   text-align: center;
 }
 .two {
-  grid-column: 2 ;
+  grid-column: 2;
 
   text-align: center;
 }
@@ -188,18 +183,18 @@ ul {
   grid-column: 3;
   text-align: center;
 }
-.sub{
+.sub {
   color: #fff;
   font-family: "Fredoka One", cursive;
   font-size: 2em;
   text-align: center;
 }
-.espacio{
-width: 80%;
-margin-left: auto;
-margin-right: auto;
+.espacio {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.parrafo2{
+.parrafo2 {
   color: #fff;
   font-family: "Fira Sans", sans-serif;
 }
@@ -223,14 +218,13 @@ margin-right: auto;
   position: relative;
 }
 
-.texto-verde{
-
-  color:#28c19a;
+.texto-verde {
+  color: #28c19a;
   font-size: 4em;
   text-align: center;
- font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", cursive;
 }
-.parrafo3{
+.parrafo3 {
   text-align: center;
   color: #28c19a;
   font-size: 26px;
@@ -247,69 +241,108 @@ margin-right: auto;
   grid-row: 1 / 5;
 }
 .c2 {
-  grid-column: 2 ;
+  grid-column: 2;
   grid-row: 1 / 5;
-
 }
 .c3 {
   grid-column: 3;
   grid-row: 1 / 5;
 }
-.circulo-verde{
+.circulo-verde {
   border: solid #28c19a;
   border-radius: 100%;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-.texto123{
-color: #28c19a;
-margin-top: 100px;
-font-size: 4em;
-font-weight: bold;
+.texto123 {
+  color: #28c19a;
+  margin-top: 100px;
+  font-size: 4em;
+  font-weight: bold;
   font-family: "Fira Sans", sans-serif;
 }
-.textop{
-color: #28c19a;
-font-size: 1.5em;
+.textop {
+  color: #28c19a;
+  font-size: 1.5em;
   font-family: "Fira Sans", sans-serif;
 }
-.texto1234{
-color: #28c19a;
-margin-top: 100px;
-font-size: 4em;
+.texto1234 {
+  color: #28c19a;
+  margin-top: 100px;
+  font-size: 4em;
   font-family: "Fira Sans", sans-serif;
 }
-.cuarto{
- display: grid;
+.cuarto {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   margin-top: -100px;
   background: #28c19a;
 }
-.cverde{
-  grid-column: 1 ;
+.cverde {
+  grid-column: 1;
   height: 900px;
   background: #28c19a;
- display: flex;
+  display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
-.cfoto{
-  grid-column: 2 ;
+.cfoto {
+  grid-column: 2;
   height: 900px;
-  background: url('../img/pexels-yan-krukov-4457993.jpg'); 
+  background: url("../img/pexels-yan-krukov-4457993.jpg");
 }
-.botonblanco{
+.botonblanco {
   background: #fff;
   width: 30%;
   margin-left: 15%;
   padding: 17px;
   font-family: "Fira Sans", sans-serif;
 }
-.botonblanco a{
+.botonblanco a {
   color: #28c19a;
+  text-decoration: none;
+}
+.fodoblanquito {
+  background: #edeeee;
+  width: 100%;
+  height: 900px;
+}
+.col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.col1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 10%;
+  grid-column: 1;
+  height: 800px;
+  background: url("../img/pexels-cottonbro-4324101.jpg");
+}
+.col2 {
+  margin-top: 10%;
+  height: 800px;
+  grid-column: 2;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.botonverde {
+  background: #28c19a;
+  width: 30%;
+  margin-left: 15%;
+  padding: 17px;
+  font-family: "Fira Sans", sans-serif;
+}
+.botonverde a{
+  color: #fff;
   text-decoration: none;
 }
