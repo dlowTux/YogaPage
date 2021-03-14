@@ -204,7 +204,7 @@ margin-right: auto;
   left: 0;
   top: 0;
   width: 100%;
-  height: auto;
+  height: 900px;
 }
 
 .demo-content {
@@ -213,14 +213,58 @@ margin-right: auto;
 
 .texto-verde{
 
-  color:#35997f;
+  color:#28c19a;
   font-size: 4em;
   text-align: center;
  font-family: "Fredoka One", cursive;
 }
 .parrafo3{
   text-align: center;
-  color: #35997f;
+  color: #28c19a;
   font-size: 26px;
+  font-family: "Fira Sans", sans-serif;
+}
+.columna {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.c1 {
+  grid-column: 1;
+  grid-row: 1 / 5;
+}
+.c2 {
+  grid-column: 2 ;
+  grid-row: 1 / 5;
+
+}
+.c3 {
+  grid-column: 3;
+  grid-row: 1 / 5;
+}
+.circulo-verde{
+  border: solid #28c19a;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.texto123{
+color: #28c19a;
+margin-top: 100px;
+font-size: 4em;
+font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+}
+.textop{
+color: #28c19a;
+font-size: 1.5em;
+  font-family: "Fira Sans", sans-serif;
+}
+.texto1234{
+color: #28c19a;
+margin-top: 100px;
+font-size: 4em;
   font-family: "Fira Sans", sans-serif;
 }
