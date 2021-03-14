@@ -130,6 +130,21 @@ ul {
 
   border-radius: 20px;
 }
+.boton3 {
+  width: 50%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Fira Sans", sans-serif;
+  background: #28c19a;
+
+}
+.boton3 a{
+  text-decoration: none;
+}
+.boton3 a h3{
+  color: #fff;
+}
 .boton a h3 {
   color: #fff;
 }
@@ -228,6 +243,12 @@ ul {
   text-align: center;
   color: #28c19a;
   font-size: 26px;
+  font-family: "Fira Sans", sans-serif;
+}
+.parrafo4 {
+  text-align: center;
+  color: #28c19a;
+  font-size: 20px;
   font-family: "Fira Sans", sans-serif;
 }
 .columna {
@@ -345,4 +366,17 @@ ul {
 .botonverde a{
   color: #fff;
   text-decoration: none;
+}
+.tarjeta{
+  width: 90%;
+  height: 500px;
+  border-radius: 20px;
+  background: #edeeee;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tv{
+  color: #28c19a;
+  font-size: 2em;
+  font-family: "Fira Sans", sans-serif;
 }
