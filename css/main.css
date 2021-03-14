@@ -191,3 +191,36 @@ margin-right: auto;
   color: #fff;
   font-family: "Fira Sans", sans-serif;
 }
+
+.demo-wrap {
+  overflow: hidden;
+  position: relative;
+  height: 1000px;
+}
+
+.demo-bg {
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.demo-content {
+  position: relative;
+}
+
+.texto-verde{
+
+  color:#35997f;
+  font-size: 4em;
+  text-align: center;
+ font-family: "Fredoka One", cursive;
+}
+.parrafo3{
+  text-align: center;
+  color: #35997f;
+  font-size: 26px;
+  font-family: "Fira Sans", sans-serif;
+}
