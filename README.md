@@ -1,6 +1,5 @@
 # YogaPage
-# Pagina Web YOGA
-Pagina sobre Yoga
+## Capturas
 ![](./1.png)
 ![](./2.png)
 ![](./3.png)
